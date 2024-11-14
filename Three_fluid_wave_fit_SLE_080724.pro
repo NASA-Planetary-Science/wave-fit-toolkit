@@ -1,6 +1,19 @@
 pro Three_fluid_wave_fit_SLE_080724,SH1,SH0,coll,gplanet,rho_obs_ratio,windowme,titleme,$
 latitude,rotrate,nugas0,kzgas0val,gas1gas0phasediff,returned_lx,returned_lz,decfeb,$
 returnval,SH2,coll2,rho_obs_ratio2,gas2gas0phasediff,gravityacoustic
+
+;Copyright 2024 Scott England
+
+;Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the “Software”), 
+;to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, 
+;and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+;The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+;THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, 
+;FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, 
+;WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
 ;SLE 08/07/24
 ;This code fits to the identified wave perturbations (density
 ;pertrubation amplituderatio and phase offset)
